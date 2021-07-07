@@ -1,0 +1,22 @@
+There has to be two users:
+1) Consumers
+2) Banking officials
+
+1) Consumer- Will have all the information about a particular user. The information will include
+	-Name
+	-Account Number
+	-Age
+	-Balance
+	-Account Type
+	-PAN
+Also, this will have two list, one for all the transaction that the user has made, which has to be verified by the 
+our banking officials, after checking the necessary conditions, for example, if that particular user has to send 
+the money to another account, he will just make a receipt of that. The banking official will after that check his
+balance and the account number of the person to whom he is sending.
+So, we will have two lists->
+	- List one: To store all the transactions requested by the user, which after has been verified will be 
+		     removed from this list.
+	- List two: To store the last five transactions that have been approved by the banking officials, based on 
+		    queue implementation.
+
+2) Banking official- Will have the authority to validate any transaction requested by the user.
