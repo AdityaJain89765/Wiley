@@ -57,7 +57,7 @@ class fib implements Runnable {
 
 	@Override
 	public void run() {
-		while (true) {
+		for(int x=1;x<=10;x++) {
 			int i = 0;
 			produce(i++);
 		}
@@ -91,7 +91,7 @@ class sum implements Runnable{
 	}
 	@Override
 	public void run() {
-		while(true) {
+		for(int x=1;x<=10;x++) {
 			consume();
 		}
 		
